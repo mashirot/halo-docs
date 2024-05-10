@@ -44,16 +44,20 @@ git clone https://github.com/halo-dev/halo
 cd path/to/halo
 ```
 
-Linux / macOS 平台：
+> Linux / macOS 平台：
+> 
+> ```bash
+> ./gradlew :ui:dev
+> ```
+> 
+> Windows 平台：
+> 
+> ```bash
+> ./gradlew.bat :ui:dev
+> ```
 
 ```bash
-./gradlew :ui:dev
-```
-
-Windows 平台：
-
-```bash
-./gradlew.bat :ui:dev
+cd ui && pnpm i && pnpm dev
 ```
 
 最终控制台打印了如下信息即代表运行正常：
